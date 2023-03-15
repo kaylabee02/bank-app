@@ -1,11 +1,12 @@
 import { StyleSheet, Text, View } from 'react-native';
-
+import Routers from "./src/routes/Router";
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-    </View>
+   <>
+    <Routers />
+   </>
   );
+
 }
 
 const styles = StyleSheet.create({
